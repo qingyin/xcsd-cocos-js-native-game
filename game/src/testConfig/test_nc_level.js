@@ -1,0 +1,159 @@
+var test_nc_level = {
+    1:{
+        id:1,
+        energy_level:-1,
+        level_tips:"",
+        pass_equation:12,
+        single_number_max:5,
+        cell_drop_time:1.5,
+        target_result:{min_value:6,max_value:10},
+        equation:{count:0,drop_way:0,typeIndex:[]},
+        bar_remove:{count:0,drop_way:0},
+        bar_not_remove:{count:0,drop_way:0}
+
+    },
+	2:{
+        id:2,
+        energy_level:0,
+        level_tips:"",
+        pass_equation:13,
+        single_number_max:5,
+        cell_drop_time:1.5,
+        target_result:{min_value:6,max_value:15},
+        equation:{count:0,drop_way:0,typeIndex:[]},
+        bar_remove:{count:0,drop_way:0},
+        bar_not_remove:{count:0,drop_way:0}
+
+    },
+    3:{
+        id:3,
+        energy_level:1,
+        level_tips:"5以内加减法",
+        pass_equation:13,
+        single_number_max:9,
+        cell_drop_time:1.5,
+        target_result:{min_value:10,max_value:20},
+        equation:{count:3,drop_way:3,typeIndex:[1,2]},
+        bar_remove:{count:0,drop_way:0},
+        bar_not_remove:{count:0,drop_way:0}
+        
+    },
+    4:{
+        id:4,
+        energy_level:2,
+        level_tips:"6-10加减法",
+        pass_equation:14,
+        single_number_max:12,
+        cell_drop_time:1.3,
+        target_result:{min_value:15,max_value:20},
+        equation:{count:4,drop_way:3,typeIndex:[3,4]},
+        bar_remove:{count:0,drop_way:0},
+        bar_not_remove:{count:0,drop_way:0}
+        
+    },
+    5:{
+        id:5,
+        energy_level:3,
+        level_tips:"20以内进位加法",
+        pass_equation:14,
+        single_number_max:15,
+        cell_drop_time:1.2,
+        target_result:{min_value:20,max_value:25},
+        equation:{count:4,drop_way:3,typeIndex:[5,6,7]},
+        bar_remove:{count:2,drop_way:4},
+        bar_not_remove:{count:0,drop_way:0}
+        
+    },
+    6:{
+        id:6,
+        energy_level:4,
+        level_tips:"20以内退位减法",
+        pass_equation:15,
+        single_number_max:15,
+        cell_drop_time:1.2,
+        target_result:{min_value:20,max_value:30},
+        equation:{count:5,drop_way:3,typeIndex:[8,9,10]},
+        bar_remove:{count:3,drop_way:4},
+        bar_not_remove:{count:0,drop_way:0}
+        
+    },
+    7:{
+        id:7,
+        energy_level:5,
+        level_tips:"2-9的乘法口诀",
+        pass_equation:15,
+        single_number_max:20,
+        cell_drop_time:1.2,
+        target_result:{min_value:25,max_value:30},
+        equation:{count:5,drop_way:2,typeIndex:[11,12,13,14]},
+        bar_remove:{count:4,drop_way:3},
+        bar_not_remove:{count:3,drop_way:4}
+        
+    },
+    8:{
+        id:8,
+        energy_level:6,
+        level_tips:"用2-9的乘法口诀求商",
+        pass_equation:15,
+        single_number_max:20,
+        cell_drop_time:1.2,
+        target_result:{min_value:25,max_value:35},
+        equation:{count:6,drop_way:2,typeIndex:[15,16]},
+        bar_remove:{count:5,drop_way:3},
+        bar_not_remove:{count:3,drop_way:4}
+        
+    },
+    9:{
+        id:9,
+        energy_level:7,
+        level_tips:"两位数乘一位数",
+        pass_equation:16,
+        single_number_max:25,
+        cell_drop_time:1.2,
+        target_result:{min_value:30,max_value:40},
+        equation:{count:6,drop_way:2,typeIndex:[17]},
+        bar_remove:{count:5,drop_way:3},
+        bar_not_remove:{count:4,drop_way:4}
+        
+    },
+    10:{
+        id:10,
+        energy_level:8,
+        level_tips:"多位数除法",
+        pass_equation:16,
+        single_number_max:25,
+        cell_drop_time:1.2,
+        target_result:{min_value:30,max_value:40},
+        equation:{count:6,drop_way:2,typeIndex:[18]},
+        bar_remove:{count:5,drop_way:3},
+        bar_not_remove:{count:4,drop_way:4}
+        
+    },
+    11:{
+        id:11,
+        energy_level:9,
+        level_tips:"四则运算",
+        pass_equation:16,
+        single_number_max:30,
+        cell_drop_time:1,
+        target_result:{min_value:35,max_value:45},
+        equation:{count:5,drop_way:3,typeIndex:[19]},
+        bar_remove:{count:6,drop_way:2},
+        bar_not_remove:{count:4,drop_way:4}
+        
+    },
+    12:{
+        id:12,
+        energy_level:10,
+        level_tips:"四则运算",
+        pass_equation:17,
+        single_number_max:30,
+        cell_drop_time:1,
+        target_result:{min_value:35,max_value:45},
+        equation:{count:6,drop_way:2,typeIndex:[19]},
+        bar_remove:{count:6,drop_way:3},
+        bar_not_remove:{count:4,drop_way:4}
+        
+    },
+
+}
